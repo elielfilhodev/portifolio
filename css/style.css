@@ -347,6 +347,12 @@ nav {
     width: 100%;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     filter: grayscale(100%);
+    transition: 0.2s ease-in-out;
+}
+
+.about-image img:hover{
+    filter: grayscale(0%);
+    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.092);
 }
 
 /* Projects Section */
