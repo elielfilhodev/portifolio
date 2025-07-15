@@ -724,3 +724,24 @@ footer {
 .btn--loading .btn-text {
     display: none;
 }
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; /* Alinha os ícones verticalmente */
+    margin-top: 1.5rem;
+    gap: 1.5rem; /* Aumenta o espaçamento entre os ícones */
+}
+
+.skill {
+    font-size: 2.8rem; /* Define o tamanho do ícone */
+    color: var(--light-gray); /* Cor padrão do ícone */
+    transition: all 0.3s ease-in-out; /* Adiciona uma transição suave */
+    cursor: pointer;
+}
+
+.skill:hover {
+    color: #ffffff; /* Muda a cor do ícone no hover */
+    transform: scale(1.2);
+    background-color: transparent;
+}
